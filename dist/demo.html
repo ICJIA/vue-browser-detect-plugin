@@ -3,7 +3,7 @@
 <script src="./vue-browser-detect-plugin.umd.js"></script>
 
 <div id="app">
-  <h1>Vue Browser Detect</h1>
+  <h1>{{ msg }}</h1>
   <div>{{ $browserDetect }}</div>
 </div>
 
@@ -11,7 +11,7 @@
   new Vue({
     data() {
       return {
-        msg: "test"
+        msg: "Vue Browser Detect"
       };
     }
   }).$mount("#app");

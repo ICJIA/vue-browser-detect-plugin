@@ -1,14 +1,20 @@
 {
   "name": "vue-browser-detect-plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "dist/vue-browser-detect-plugin.common.js",
   "module": "dist/vue-browser-detect-plugin.umd.js",
+  "description": "Simple browser detection plugin for Vue.",
   "scripts": {
     "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build --target lib src/main.js",
     "lint": "vue-cli-service lint",
     "postbuild": "cp ./public/demo.html ./dist"
   },
+  "keywords": [
+    "Vue",
+    "browser detection"
+  ],
+  "homepage": "https://github.com/ICJIA/vue-browser-detect-plugin#readme",
   "dependencies": {
     "vue": "^2.5.17"
   },

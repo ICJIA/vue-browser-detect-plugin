@@ -1,0 +1,18 @@
+<title>vue-tour demo</title>
+<script src="https://unpkg.com/vue"></script>
+<script src="./vue-browser-detect-plugin.umd.js"></script>
+
+<div id="app">
+  <h1>Vue Browser Detect</h1>
+  <div>{{ $browserDetect }}</div>
+</div>
+
+<script>
+  new Vue({
+    data() {
+      return {
+        msg: "test"
+      };
+    }
+  }).$mount("#app");
+</script>

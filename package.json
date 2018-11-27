@@ -1,7 +1,6 @@
 {
   "name": "vue-browser-detect-plugin",
   "version": "0.1.0",
-  "private": true,
   "main": "dist/vue-browser-detect-plugin.common.js",
   "module": "dist/vue-browser-detect-plugin.umd.js",
   "scripts": {
@@ -13,6 +12,7 @@
   "dependencies": {
     "vue": "^2.5.17"
   },
+  "license": "MIT",
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.1.1",
     "@vue/cli-plugin-eslint": "^3.1.5",

@@ -17,7 +17,7 @@ Vue.use(browserDetect);
 
 ## Usage
 
-### Booleans:
+### Browser info:
 
 - **vm.\$browserDetect.isIE** `boolean`
 

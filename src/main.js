@@ -35,7 +35,7 @@ const VueBrowserDetect = {
     // Edge 20+
     browserObj.isEdge = !browserObj.isIE && !!window.StyleMedia;
     // Chrome 1+
-    browserObj.isChrome = !!window.chrome && !!window.chrome.webstore;
+    browserObj.isChrome = !!window.chrome
     // Blink engine detection
     browserObj.isBlink =
       (browserObj.isChrome || browserObj.isOpera) && !!window.CSS;

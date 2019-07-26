@@ -1,12 +1,12 @@
 {
   "name": "vue-browser-detect-plugin",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "main": "dist/vue-browser-detect-plugin.common.js",
   "module": "dist/vue-browser-detect-plugin.umd.js",
   "description": "Simple browser detection plugin for Vue.",
   "scripts": {
     "serve": "vue-cli-service serve --open",
-    "build": "vue-cli-service build --target lib src/main.js",
+    "build": "vue-cli-service build --target lib src/main.js && npm run postbuild",
     "lint": "vue-cli-service lint",
     "postbuild": "cp ./public/demo.html ./dist"
   },

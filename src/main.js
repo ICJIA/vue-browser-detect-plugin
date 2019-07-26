@@ -7,7 +7,8 @@ const VueBrowserDetect = {
     browserObj.isOpera =
       !!window.opera || navigator.userAgent.indexOf(" OPR/") >= 0;
     // Firefox 1.0+
-    browserObj.isFirefox = typeof InstallTrigger !== "undefined";
+    browserObj.isEdge = /Edge/.test(navigator.userAgent);
+    browserObj.isFirefox = /Firefox/.test(navigator.userAgent);
     // Safari 3.0+
     /*eslint-disable */
     browserObj.isSafari =
@@ -19,12 +20,9 @@ const VueBrowserDetect = {
     // Internet Explorer 6-11
     browserObj.isIE = /*@cc_on!@*/ false || !!document.documentMode;
     // Edge 20+
-    browserObj.isEdge = !browserObj.isIE && !!window.StyleMedia;
-    // Chrome 1+
-    browserObj.isChrome = /chrome/i.test(navigator.userAgent);
-    // Blink engine detection
-    browserObj.isBlink =
-      (browserObj.isChrome || browserObj.isOpera) && !!window.CSS;
+
+    browserObj.isChrome = /Google Inc/.test(navigator.vendor);
+    browserObj.isChromeIOS = /CriOS/.test(navigator.userAgent);
 
     browserObj.meta = browserSpecs();
     browserObj.meta.ua = ua;

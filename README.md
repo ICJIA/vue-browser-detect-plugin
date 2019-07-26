@@ -23,6 +23,10 @@ Vue.use(browserDetect);
 
 - **vm.\$browserDetect.isChrome** `boolean`
 
+- **vm.\$browserDetect.isChromeIOS** `boolean`
+
+- **vm.\$browserDetect.isFirefox** `boolean`
+
 - **vm.\$browserDetect.isOpera** `boolean`
 
 - **vm.\$browserDetect.isSafari** `boolean`

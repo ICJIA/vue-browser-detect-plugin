@@ -40,3 +40,7 @@ Vue.use(browserDetect);
 - **vm.\$browserDetect.meta.version** `Version`
 
 - **vm.\$browserDetect.meta.ua** `user-agent`
+
+## Demo
+
+https://vue-browser-detect.netlify.com/

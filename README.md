@@ -23,8 +23,6 @@ Vue.use(browserDetect);
 
 - **vm.\$browserDetect.isChrome** `boolean`
 
-- **vm.\$browserDetect.isChromeIOS** `boolean`
-
 - **vm.\$browserDetect.isFirefox** `boolean`
 
 - **vm.\$browserDetect.isOpera** `boolean`
@@ -33,7 +31,9 @@ Vue.use(browserDetect);
 
 - **vm.\$browserDetect.isEdge** `boolean`
 
-- **vm.\$browserDetect.isIos** `boolean`
+- **vm.\$browserDetect.isChromeIOS** `boolean`
+
+- **vm.\$browserDetect.isIOS** `boolean`
 
 ### Additional meta info:
 

@@ -574,7 +574,7 @@ var VueBrowserDetect = {
 
     browserObj.isChrome = /Google Inc/.test(navigator.vendor);
     browserObj.isChromeIOS = /CriOS/.test(navigator.userAgent);
-    browserObj.isIos = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+    browserObj.isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
     browserObj.meta = browserSpecs();
     browserObj.meta.ua = ua;
 

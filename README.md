@@ -33,6 +33,8 @@ Vue.use(browserDetect);
 
 - **vm.\$browserDetect.isEdge** `boolean`
 
+- **vm.\$browserDetect.isIos** `boolean`
+
 ### Additional meta info:
 
 - **vm.\$browserDetect.meta.name** `Chrome, IE, Edge, etc.`

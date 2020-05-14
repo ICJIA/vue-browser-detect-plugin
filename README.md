@@ -46,3 +46,17 @@ Vue.use(browserDetect);
 ## Demo
 
 https://vue-browser-detect.netlify.com/
+
+## Nuxt.js
+
+Add `vue-browser-detect-plugin/nuxt` to the `buildModules` section of `nuxt.config.js`
+
+```js
+export default {
+  buildModules: [
+    'vue-browser-detect-plugin/nuxt'
+  ]
+}
+```
+
+:warning: If you are using Nuxt **< v2.9** you have to install the module as a `dependency` (No `--dev` or `--save-dev` flags) and use `modules` section in `nuxt.config.js` instead of `buildModules`.

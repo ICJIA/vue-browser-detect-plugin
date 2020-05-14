@@ -1,32 +1,35 @@
 {
   "name": "vue-browser-detect-plugin",
-  "version": "0.1.10",
-  "main": "dist/vue-browser-detect-plugin.common.js",
-  "module": "dist/vue-browser-detect-plugin.umd.js",
+  "version": "0.1.11",
   "description": "Simple browser detection plugin for Vue.",
   "scripts": {
     "serve": "vue-cli-service serve --open",
     "build": "vue-cli-service build --target lib src/main.js && npm run postbuild",
     "lint": "vue-cli-service lint",
+    "version": "auto-changelog -p --commit-limit false --sort-commits date && git add CHANGELOG.md",
     "postbuild": "cp ./public/demo.html ./dist"
   },
-  "keywords": [
-    "Vue",
-    "browser detection"
-  ],
-  "homepage": "https://github.com/ICJIA/vue-browser-detect-plugin#readme",
+  "main": "dist/vue-browser-detect-plugin.common.js",
+  "module": "dist/vue-browser-detect-plugin.umd.js",
   "dependencies": {
+    "auto-changelog": "^2.0.0",
+    "core-js": "^3.6.4",
     "vue": "^2.6.11"
   },
-  "license": "MIT",
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.1.1",
-    "@vue/cli-plugin-eslint": "^3.1.5",
-    "@vue/cli-service": "^3.1.4",
+    "@vue/cli-plugin-babel": "^4.3.1",
+    "@vue/cli-plugin-eslint": "^4.3.1",
+    "@vue/cli-service": "^4.3.1",
     "@vue/eslint-config-prettier": "^4.0.0",
     "babel-eslint": "^10.0.1",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0-0",
     "vue-template-compiler": "^2.5.17"
-  }
+  },
+  "homepage": "https://github.com/ICJIA/vue-browser-detect-plugin#readme",
+  "keywords": [
+    "Vue",
+    "browser detection"
+  ],
+  "license": "MIT"
 }

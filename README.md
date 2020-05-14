@@ -1,5 +1,7 @@
 # Vue Browser Detect Plugin
 
+ [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 > Simple plugin for Vue that detects browser name, version, and user-agent.
 
 ## Installation
@@ -60,3 +62,7 @@ export default {
 ```
 
 :warning: If you are using Nuxt **< v2.9** you have to install the module as a `dependency` (No `--dev` or `--save-dev` flags) and use `modules` section in `nuxt.config.js` instead of `buildModules`.
+
+## CHANGLOG
+
+[See CHANGELOG.md](https://github.com/ICJIA/vue-browser-detect-plugin/blob/master/CHANGELOG.md)

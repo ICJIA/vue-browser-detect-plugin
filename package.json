@@ -12,8 +12,6 @@
   "main": "dist/vue-browser-detect-plugin.common.js",
   "module": "dist/vue-browser-detect-plugin.umd.js",
   "dependencies": {
-    "auto-changelog": "^2.0.0",
-    "core-js": "^3.6.4",
     "vue": "^2.6.11"
   },
   "devDependencies": {
@@ -21,7 +19,9 @@
     "@vue/cli-plugin-eslint": "^4.3.1",
     "@vue/cli-service": "^4.3.1",
     "@vue/eslint-config-prettier": "^4.0.0",
+    "auto-changelog": "^2.0.0",
     "babel-eslint": "^10.0.1",
+    "core-js": "^3.6.4",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0-0",
     "vue-template-compiler": "^2.5.17"

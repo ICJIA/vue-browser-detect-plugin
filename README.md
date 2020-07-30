@@ -25,6 +25,8 @@ Vue.use(browserDetect);
 
 - **vm.\$browserDetect.isChrome** `boolean`
 
+    - Note: This is Chrome desktop.
+
 - **vm.\$browserDetect.isFirefox** `boolean`
 
 - **vm.\$browserDetect.isOpera** `boolean`

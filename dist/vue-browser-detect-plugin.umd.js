@@ -2310,7 +2310,7 @@ var VueBrowserDetect = {
 
     browserObj.isOpera = !!window.opera || navigator.userAgent.indexOf(" OPR/") >= 0; // Firefox 1.0+
 
-    browserObj.isEdge = /Edge/.test(navigator.userAgent);
+    browserObj.isEdge = /Edg/.test(navigator.userAgent);
     browserObj.isFirefox = /Firefox/.test(navigator.userAgent); // Safari 3.0+
 
     /*eslint-disable */
@@ -2329,6 +2329,7 @@ var VueBrowserDetect = {
     browserObj.isChrome = /Google Inc/.test(navigator.vendor);
     browserObj.isChromeIOS = /CriOS/.test(navigator.userAgent);
     browserObj.isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+    browserObj.isBrave = typeof navigator.brave !== "undefined";
     browserObj.meta = browserSpecs();
     browserObj.meta.ua = ua;
 

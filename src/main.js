@@ -7,7 +7,7 @@ const VueBrowserDetect = {
     browserObj.isOpera =
       !!window.opera || navigator.userAgent.indexOf(" OPR/") >= 0;
     // Firefox 1.0+
-    browserObj.isEdge = /Edge/.test(navigator.userAgent);
+    browserObj.isEdge = /Edg/.test(navigator.userAgent);
     browserObj.isFirefox = /Firefox/.test(navigator.userAgent);
     // Safari 3.0+
     /*eslint-disable */

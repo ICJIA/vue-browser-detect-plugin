@@ -26,6 +26,8 @@ const VueBrowserDetect = {
     browserObj.isIOS =
       /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
 
+    browserObj.isBrave = (typeof navigator.brave !== "undefined");
+
     browserObj.meta = browserSpecs();
     browserObj.meta.ua = ua;
 

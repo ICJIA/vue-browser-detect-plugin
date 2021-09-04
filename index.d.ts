@@ -9,6 +9,7 @@ export interface BrowserDetectMeta {
 export interface BrowserDetect {
   isIE: boolean;
   isChrome: boolean;
+  isBrave: boolean;
   isFirefox: boolean;
   isOpera: boolean;
   isSafari: boolean;

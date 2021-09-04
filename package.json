@@ -1,6 +1,6 @@
 {
   "name": "vue-browser-detect-plugin",
-  "version": "0.1.16",
+  "version": "0.1.17",
   "description": "Simple browser detection plugin for Vue.",
   "scripts": {
     "serve": "vue-cli-service serve --open",

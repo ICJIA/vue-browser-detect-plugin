@@ -21,7 +21,7 @@ const VueBrowserDetect = {
     browserObj.isIE = /*@cc_on!@*/ false || !!document.documentMode;
     // Edge 20+
 
-    browserObj.isChrome = /Google Inc/.test(navigator.vendor);
+    browserObj.isChrome = /Google Inc/.test(navigator.vendor) && !browserObj.isEdge;
     browserObj.isChromeIOS = /CriOS/.test(navigator.userAgent);
     browserObj.isIOS =
       /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;

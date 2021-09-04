@@ -1,6 +1,6 @@
 {
   "name": "vue-browser-detect-plugin",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "description": "Simple browser detection plugin for Vue.",
   "scripts": {
     "serve": "vue-cli-service serve --open",
@@ -12,19 +12,24 @@
   "main": "dist/vue-browser-detect-plugin.common.js",
   "module": "dist/vue-browser-detect-plugin.umd.js",
   "dependencies": {
-    "vue": "^2.6.11"
+    "feed": "^4.2.2",
+    "vue": "^2.6.11",
+    "vue-eslint-parser": "^7.10.0"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.3.1",
-    "@vue/cli-plugin-eslint": "^4.3.1",
-    "@vue/cli-service": "^4.3.1",
-    "@vue/eslint-config-prettier": "^4.0.0",
-    "auto-changelog": "^2.0.0",
-    "babel-eslint": "^10.0.1",
-    "core-js": "^3.6.4",
-    "eslint": "^5.8.0",
-    "eslint-plugin-vue": "^5.0.0-0",
-    "vue-template-compiler": "^2.5.17"
+    "@vue/cli-plugin-babel": "^4.5.13",
+    "@vue/cli-plugin-eslint": "^4.5.13",
+    "@vue/cli-service": "^4.5.13",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "auto-changelog": "^2.3.0",
+    "babel-eslint": "^10.1.0",
+    "core-js": "^3.17.2",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^7.17.0",
+    "prettier-eslint": "^13.0.0",
+    "vue-template-compiler": "^2.6.14"
   },
   "homepage": "https://github.com/ICJIA/vue-browser-detect-plugin#readme",
   "keywords": [
